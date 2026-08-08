@@ -1,0 +1,34 @@
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.env
+.pytest_cache/
+
+# Databases
+backend/*.db
+backend/*.sqlite3
+
+# Serialized Models (Keep README, ignore binaries)
+models/*
+!models/README.md
+
+# Datasets (Keep README, ignore raw and processed data)
+dataset/*
+!dataset/README.md
+
+# OS
+.DS_Store
+Thumbs.db
